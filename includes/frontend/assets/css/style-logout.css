@@ -1,0 +1,165 @@
+/*css styles*/
+.mx-like-box {
+	position: relative;
+	display: inline-block;
+	min-width: 160px;
+	height: 40px;
+	border: 1px solid #ddd;
+}
+.mx-like-box button.mx-like-main-button {
+	border: none;
+	width: 50px;
+	height: 100%;
+	padding: 0;
+	background: transparent;
+	/*position: absolute;*/
+	z-index: 889;
+	background: transparent;
+	padding-left: 14px;
+}
+.mx-like-box button.mx-like-main-button span {
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    display: inline-block;
+	width: 22px;
+	height: 22px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    margin: 0px;
+    float: left;
+}
+.mx-like-other-faces {
+    position: absolute;
+    z-index: 888;
+    background: #fff;
+	top: 40px;
+	height: 0px;
+	overflow: hidden;
+	width: 288px;
+}
+.mx-like-other-faces button {
+    width: 40px !important;
+    height: 40px !important;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0px !important;
+    float: left;
+    border: none !important;
+    margin-right: 6px;
+	background: transparent !important;
+	outline: none;
+}
+.mx-like-other-faces button span {
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 0px;
+}
+
+/*hover like button*/
+.mx-like-other-faces:hover,
+.mx-like-other-faces-active {
+	height: 56px;
+    top: -56px;
+    right: 35px;    
+    padding: 9px 0px 9px 9px;
+	border-radius: 26px;
+	-webkit-box-shadow: 2px 3px 20px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 3px 20px -5px rgba(0,0,0,0.75);
+	box-shadow: 2px 3px 20px -5px rgba(0,0,0,0.75);
+}
+.mx-like-other-faces-active {
+	-webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+/*mx-like-place*/
+.mx-like-place {
+	width: 100px;
+    float: left;
+}
+.mx-like-place-faces,
+.mx-like-place-count {
+	display: block;
+	height: 20px;
+	line-height: 0px;
+	margin-top: 6px;
+	float: left;
+}
+.mx-like-place-count {
+	line-height: 20px;
+	padding-top: 3px;
+	padding-left: 9px;
+}
+.mx-like-place .mx-like-place-faces {
+	padding-left: 16px;
+}
+.mx-like-place .mx-like-place-faces span {
+    width: 20px;
+    height: 20px;
+    font-size: 0px;
+    display: none;
+    float: none;
+    line-height: 9px;
+    padding: 0;
+    -webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+/*spans likes*/
+span.mx-like,
+.mx-like-face-like span,
+.mx-like-box button.mx-like-main-button span {
+	background-image: url(../img/like.png);
+}
+span.mx-heart,
+.mx-like-face-heart span {
+	background-image: url(../img/heart.png);
+}
+span.mx-laughter,
+.mx-like-face-laughter span {
+	background-image: url(../img/laughter.png);
+}
+span.mx-wow,
+.mx-like-face-wow span {
+	background-image: url(../img/wow.png);
+}
+span.mx-sad,
+.mx-like-face-sad span {
+	background-image: url(../img/sad.png);
+}
+span.mx-angry,
+.mx-like-face-angry span {
+	background-image: url(../img/angry.png);
+}
+
+.mx-like-place .mx-like-place-faces span.mx-like-active {
+	display: inline-block;
+}
+.mx-display-none {
+	display: none !important;	
+}
+
+/* user window */
+.mx-users-window {
+	position: absolute;
+    width: 200px;
+    height: auto;
+    background: #333;
+    padding: 6px;
+    max-height: 250px;
+    overflow: auto;
+}
+.mx-users-window a {
+	display: block;
+    font-size: 14px;
+    line-height: 10px;
+    color: #fff;
+    line-height: 16px;
+}

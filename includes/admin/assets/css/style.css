@@ -1,0 +1,131 @@
+/*css styles*/
+.mx-block_wrap {
+	position: relative;
+    margin-top: 20px;
+    padding: .7em 2em 1em;
+    min-width: 255px;
+    max-width: 520px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+.mx-block_wrap textarea {
+	width: 100%;
+	height: 100px;
+}
+.mx-submit_button_wrap {
+	text-align: right;
+}
+.mx-restore_data {
+    float: left;
+    width: 464px;
+}
+.mx-restore_data label {
+    float: left;
+}
+.wp-core-ui .mx-restore_data input {
+    float: left;
+    margin-top: 2px;
+    margin-left: 8px;
+    height: 16px;
+}
+.mx-hint_text {
+    background: #f3f3f3;
+    padding: 6px;
+}
+.mx-block_wrap .thickbox img {
+    width: 200px;
+}
+.mx-block_wrap h3 {
+    text-transform: capitalize;
+}
+.mx-like-preview-wrap {
+    position: relative;
+    float: right;
+    margin-top: -32px;
+    width: 50px;
+    height: auto;
+}
+.mx-like-preview-wrap button.mx-btn-remove {
+    position: absolute;
+    right: 0;
+    top: -7px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.mx-like-preview-wrap button.mx-btn-remove:hover {
+    background: #ddd;
+    border: 1px solid red;
+}
+.mx-like-preview-wrap button.mx-btn-remove:hover i {
+    color: red;
+}
+.mx-like-preview-wrap button.mx-btn-remove i {
+    color: #ddd;
+}
+img.mx-like-preview {
+    width: 100%;
+}
+
+/*navbar*/
+.mxmlb_admin_nav_bar {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+}
+.mxmlb_admin_nav_bar li {
+    float: left;
+    border: 1px solid #ddd;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.mxmlb_admin_nav_bar li a {
+    padding: 10px 22px;
+    display: inline-block;
+}
+.mxmlb_active_item_menu {
+    background-color: #fff;
+}
+.mx-post-type-box {
+    margin-bottom: 10px;
+}
+.mx-post-type-box label {
+    font-weight: bold;
+}
+.mxmlb_post_type_turn_of {
+    opacity: 0.5;
+}
+
+/*PRO*/
+.mx-pro-version-item {
+    position: relative;
+}
+.mx-pro-version-item .mx-day-count {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.mx-trial-period-has-ended {
+    text-align: center;
+    border: 3px solid red;
+}
+.mx-trial-period-has-ended h2 {
+    font-size: 25px;
+}
+.mx-trial-period-has-ended p span {
+    font-weight: bold;
+}
+.mx-trial-version-info {
+    background: #ecd3d3;
+    padding: 20px;
+}
